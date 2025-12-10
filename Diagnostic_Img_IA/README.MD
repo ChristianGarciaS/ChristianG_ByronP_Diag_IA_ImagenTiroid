@@ -1,4 +1,5 @@
-![](ChristianG_ByronP_Diag_IA_ImagenTiroid/Diagnostic_Img_IA/imagenes/ImgLogin.png)
+![](ChristianG_ByronP_Diag_IA_ImagenTiroid/Diagnostic_Img_IA/imagenes/MenuPrincipalImg.jpg)
+
 
 
 
