@@ -58,7 +58,7 @@ Se mostraron imágenes representativas de ambas clases para verificar la calidad
 
 Gráfico de barras con el número de imágenes en cada clase (benigno vs maligno).
 
-![](../imagenes/img_doc2_1.png)
+![](/imagenes/img_doc2_1.png)
 
 **Conclusión:**\
 Se observa un **desbalance moderado entre clases**, lo cual justificó el uso posterior de pesos de clase durante el entrenamiento.
@@ -69,7 +69,7 @@ Se observa un **desbalance moderado entre clases**, lo cual justificó el uso po
 
 Diagrama de cajas (boxplot) de la desviación estándar de intensidades por clase.
 
-![](imagenes/img_doc2_2.png)
+![](/imagenes/img_doc2_2.png)
 
 **Observación:**\
 Las imágenes malignas presentan, en promedio, una mayor variabilidad de intensidad, lo que puede asociarse a mayor complejidad estructural.
@@ -78,7 +78,7 @@ Las imágenes malignas presentan, en promedio, una mayor variabilidad de intensi
 
 Histogramas de frecuencia de intensidades de píxeles para imágenes benignas y malignas.
 
-![](../imagenes/img_doc2_3.png)
+![](/imagenes/img_doc2_3.png)
 
 **Conclusión:**\
 Se identifican diferencias sutiles en la distribución de intensidades, lo que sugiere que la información de textura es relevante para la clasificación.
@@ -87,7 +87,7 @@ Se identifican diferencias sutiles en la distribución de intensidades, lo que s
 
 Mapa de calor (heatmap) con coeficientes de correlación entre las características extraídas.
 
-![](../imagenes/img_doc2_4.png)
+![](/imagenes/img_doc2_4.png)
 
 **Hallazgos clave:**
 
