@@ -151,7 +151,7 @@ Conjunto de imágenes ecográficas de tiroides etiquetadas en dos categorías:
 |Random Forest Optimizado|**0.64%**|
 
 **Matriz de Confusión RF Optimizado:**\
-![](imagenes/img1.png)
+![ ](imagenes/img1.png)
 
 **Matriz de Correlación de Features:**\
 <https://via.placeholder.com/500x400/FF8800/FFFFFF?text=Correlation+Heatmap>
