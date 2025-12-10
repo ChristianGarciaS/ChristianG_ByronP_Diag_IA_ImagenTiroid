@@ -58,37 +58,37 @@ En la consola deberia verse lo siguiente al ejecutar el comando
 ## Navegacion en la interfaz de usuario
 Luego de ejecutar el comando de inicializacion de streamlit, se abrira una ventana en el navegador que redirigira al usuario a la pantalla de autenticacion.
 
-![](../imagenes/ImgLogin.png)
+![](/imagenes/ImgLogin.png)
 
 El usuario debe ingresar como usuario y password el texto "admuser" para acceder al menu principal.
 
-![](../imagenes/MenuPrincipalImg.jpg)
+![](/imagenes/MenuPrincipalImg.jpg)
 
 Una vez dentro, el usuario tendra 3 opciones: EDA, Entrenamiento y Prediccion por imagen
 
 **EDA**: En esta pantalla se podran visualizar los resultados del EDA, estos incluyen graficos y varios procedimientos que se pueden evidenciar a traves de los logs en la misma pantalla
 
-![](../imagenes/PantallaEDA.png)
+![](/imagenes/PantallaEDA.png)
 
 **Entrenamiento**: En esta pantalla al pulsar el boton "Ejecutar Entrenamiento", se empezaran a entrenar los modelos que posteriormente seran guardados en el directorio "modelos_entrenados_1". Todo el proceso de entrenameinto se podra evidenciar en el apartado de logs en la pantalla cuando acabe el entrenamiento
 
-![](../imagenes/PantallaEntrenamiento.png)
+![](/imagenes/PantallaEntrenamiento.png)
 
 **Prediccion por imagen**: En esta pantalla se podra cargar una imagen y mediante la utilizacion de los modelos generados en la pantalla "Entrenamiento" se procedera a analizar la imagen, estos resultados se podran ver en los logs de la pantalla.
 
-![](../imagenes/PantallaPrediccion.png)
+![](/imagenes/PantallaPrediccion.png)
 
 **Importante:** En la parte superior derecha de la interfaz de usuario, al realizar una operacion, se podra observar un icono con imagenes cambiantes. Este icono representa que la operacion seleccionada se esta "ejecutando", por lo tanto es importante no relizar cambios de accion hasta que el icono desaparezca.
 Una vez desaparezca los resultados se presentaran automaticamente en la pantalla, el icono se vera de la siguiente manera:
 
-![](../imagenes/IconoDeCarga.png)
+![](/imagenes/IconoDeCarga.png)
 
 
 ## Resultados esperados
 Al final de la ejecucion de cada apartado, los resultados se deberan presentar en la misma pantalla de manera automatica, entre estos resultados se podra encontrar graficos, logs de ejecucion, imagenes generadas luego de analisis. Lo anteriormente mencionado se vera de la siguiente manera:
 
-![](../imagenes/ResultadosEDA.png)
+![](/imagenes/ResultadosEDA.png)
 
-![](../imagenes/ResultadosEDA2.png)
+![](/imagenes/ResultadosEDA2.png)
 
-![](../imagenes/ResultadosPrediccion.png)
+![](/imagenes/ResultadosPrediccion.png)
