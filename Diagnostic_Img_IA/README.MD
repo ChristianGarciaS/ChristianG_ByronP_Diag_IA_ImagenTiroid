@@ -1,4 +1,5 @@
-![](Diagnostic_Img_IA/imagenes/ImgLogin.png)
+![ ](./Diagnostic_Img_IA/imagenes/MenuPrincipalImg.jpg)
+
 
 
 
