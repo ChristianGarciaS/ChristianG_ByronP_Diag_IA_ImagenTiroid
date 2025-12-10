@@ -53,7 +53,7 @@ Para inicializar la interfaz de usuario se debe ejecutar el siguiente comando:
 
 En la consola deberia verse lo siguiente al ejecutar el comando
 
-![](./imagenes/ConsolaImg.png)
+![](imagenes/ConsolaImg.png)
 
 ## Navegacion en la interfaz de usuario
 Luego de ejecutar el comando de inicializacion de streamlit, se abrira una ventana en el navegador que redirigira al usuario a la pantalla de autenticacion.
