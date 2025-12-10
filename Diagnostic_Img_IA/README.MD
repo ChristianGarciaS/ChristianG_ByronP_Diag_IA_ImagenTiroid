@@ -1,1 +1,2 @@
-![texto](Diagnostic_Img_IA/imagenes/imagen.png)
+!(Diagnostic_Img_IA/imagenes/ImgLogin.png)
+
