@@ -1,0 +1,9 @@
+﻿metric,value
+train_count_benign,205
+train_count_malignant,305
+train_total,510
+benign_percentage,0.40196
+malignant_percentage,0.59804
+class_ratio_malignant_to_benign,1.4878
+class_weight_benign,1.2439024390243902
+class_weight_malignant,0.8360655737704918

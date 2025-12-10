@@ -1,0 +1,5 @@
+﻿index,Modelo,Accuracy_before_after
+0,CNN_base,0.6377952755905512
+1,CNN_finetune,0.6377952755905512
+2,RF_base,0.609375
+3,RF_opt,0.640625
