@@ -1,5 +1,6 @@
 ![](Diagnostic_Img_IA/imagenes/MenuPrincipalImg.jpg)
-<img src="./Diagnostic_Img_IA/imagenes/MenuPrincipalImg.jpg" width="600">
+<img src="ChristianG_ByronP_Diag_IA_ImagenTiroid/Diagnostic_Img_IA/imagenes/MenuPrincipalImg.jpg" width="600">
+
 
 
 
