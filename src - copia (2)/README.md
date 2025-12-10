@@ -1,1 +1,0 @@
-# ChristianG_ByronP_Diag_IA_ImagenTiroid
