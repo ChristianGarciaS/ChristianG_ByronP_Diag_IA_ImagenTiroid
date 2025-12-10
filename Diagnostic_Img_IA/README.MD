@@ -156,7 +156,7 @@ Conjunto de imágenes ecográficas de tiroides etiquetadas en dos categorías:
 **Matriz de Correlación de Features:**\
 <https://via.placeholder.com/500x400/FF8800/FFFFFF?text=Correlation+Heatmap>
 
-![](imagenes/img2.png)
+![](../imagenes/img2.png)
 
 **7) Instalación y Uso**
 
@@ -307,44 +307,44 @@ Descripción de la interfaz:
 
 Interfaz basada en **Google Colab**:
 
-![](imagenes/img3.png)
+![](../imagenes/img3.png)
 
 **5to). Conectarse a Google Drive**
 
-![](imagenes/img4.png)
+![](../imagenes/img4.png)
 
 **6to). Iniciar Sesión en Google Drive**
 
-![](imagenes/img5.png)
+![](../imagenes/img5.png)
 
 **7mo). Se presentan imágenes del Dataset** 
 
-![](imagenes/img6.png)
+![](../imagenes/img6.png)
 
 **8vo). Presenta Análisis de Exploración de Datos**
 
-![](imagenes/img7.png)
+![](../imagenes/img7.png)
 
-![](imagenes/img8.png)
+![](../imagenes/img8.png)
 
 **9no). Presenta las comparaciones del las optimizaciones Antes y Después:**
 
-Mejorando la cantidad de imágenes, se mejora la optimización de los Modelos.![](imagenes/img9.png)
+Mejorando la cantidad de imágenes, se mejora la optimización de los Modelos.![](../imagenes/img9.png)
 
 **10) Elegir Imagen: Presionar el Botón Elegir archivos.**
 
-![](imagenes/img10.png)
+![](../imagenes/img10.png)
 
 
 
 
 **11) Presenta el Explorador para escoger la imagen**
 
-![](imagenes/img11.png)
+![](../imagenes/img11.png)
 
 **12) Presenta Diagnóstico Profesional en Pantalla y Graba archivo \.PDF**
 
-![](imagenes/img12.png)
+![](../imagenes/img12.png)
 
 
 
@@ -355,11 +355,11 @@ Mejorando la cantidad de imágenes, se mejora la optimización de los Modelos.![
 
 **13) Archivo \.PDF Generado en My Drive:**
 
-![](imagenes/img13.png)
+![](../imagenes/img13.png)
 
 **14) NOTAS FINALES:**
 
-![](imagenes/img14.png)
+![](../imagenes/img14.png)
 
 **Estructura del Proyecto**
 
@@ -511,7 +511,7 @@ de este software y de los archivos de documentación asociados.
 
 **1) Pantalla de Login de Usuario:**
 
-![](imagenes/img15.png)
+![](../imagenes/img15.png)
 
 **Usuario: admuser**
 
@@ -519,49 +519,49 @@ de este software y de los archivos de documentación asociados.
 
 **2) Menú Principal**
 
-![](imagenes/img16.png)
+![](../imagenes/img16.png)
 
-![](imagenes/img17.png)
+![](../imagenes/img17.png)
 
 **Opción: Botón Ejecutar EDA**
 
 **Pantalla 1 análisis EDA:**
 
-![](imagenes/img18.png)
+![](../imagenes/img18.png)
 
 
 **Pantalla 2 Análisis EDA:**
 
-![](imagenes/img19.png)
+![](../imagenes/img19.png)
 
 Pantalla  3 Ver Log de consola EDA.
 
-![](imagenes/img20.png)
+![](../imagenes/img20.png)
 
 
 Pantalla 1 - Predicción de Imagen:
 
-![](imagenes/img21.png)
+![](../imagenes/img21.png)
 
 Pantalla 2 - Predicción de Imagen:
 
-![](imagenes/img22.png)
+![](../imagenes/img22.png)
 
 
 
 
 Pantalla 3 - Predicción de Imagen:
 
-![](imagenes/img23.png)
+![](../imagenes/img23.png)
 
 
-![](imagenes/img24.png)
+![](../imagenes/img24.png)
 
 
 
 **NOTAS FINALES:**
 
-![](imagenes/img25.png)
+![](../imagenes/img25.png)
 
 **ANÁLISIS DE LA INTERFAZ STREAMLIT EXISTENTE**
 
