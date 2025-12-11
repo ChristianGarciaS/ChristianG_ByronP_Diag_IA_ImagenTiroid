@@ -1,6 +1,6 @@
 ﻿**D) Optimizacion**
 
-***Optimización de modelos — Workshop S5***
+***Optimización de modelos —**
 
 **1. Proceso general de optimización de hiperparámetros**
 
@@ -166,4 +166,5 @@ En términos generales:
 - La CNN mejoró tras el fine-tuning.
 - Random Forest mejoró moderadamente al ajustar profundidad.
 - La combinación **CNN + RF** entregó la mejor estabilidad diagnóstica.
+
 
