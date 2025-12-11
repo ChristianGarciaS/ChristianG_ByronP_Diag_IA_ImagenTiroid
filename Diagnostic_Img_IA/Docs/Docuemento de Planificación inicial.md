@@ -1,8 +1,4 @@
-﻿**DOCUMENTACIÓN COMPLETA**
-
-**A) PLANIFICACIÓN**
-
-**Proyecto:** Sistema de diagnóstico asistido por IA para imágenes tiroideas
+﻿**PLANIFICACIÓN**
 
 **1. Definición del problema y objetivos**
 
