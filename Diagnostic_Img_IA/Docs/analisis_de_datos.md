@@ -1,6 +1,4 @@
-**DOCUMENTACIÓN COMPLETA**
-
-2) **ANALISIS DE DATOS.**
+**ANALISIS DE DATOS.**
 
 **Descripción detallada del dataset**
 
