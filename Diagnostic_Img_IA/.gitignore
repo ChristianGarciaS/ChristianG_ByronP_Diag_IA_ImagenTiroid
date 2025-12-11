@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Modelos entrenados
+modelos_entrenados/
+*.pkl
+
+
+# Archivos PDF generados
+*.pdf
+
+# Datasets e imágenes
+p_1_image/
+data/
+datasets/
+*.png
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Entornos virtuales
+venv/
+.env/

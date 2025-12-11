@@ -1,0 +1,34 @@
+Dependencias detectadas en DIAGNOSTIC_IMG_IA
+
+El Script código usa:
+
+Librería			Para qué sirve			   Razón de inclusión
+
+tensorflow	CNN EfficientNet, transfer learning, predicción		Necesario
+tensorflow-hub (opcional)	No lo usas directamente	        	No incluir
+numpy		Operaciones numéricas, arrays				Necesario
+pandas		EDA, tablas						Necesario
+scikit-image	Carga, resize, filtros, LBP, entropía			Necesario
+scikit-learn	RandomForest, split, métricas, GridSearch		Necesario
+opencv-python-headless	Canny, lectura de imágenes grayscale		Necesario
+matplotlib	Visualización y barra porcentual			Necesario
+seaborn	Heatmap de correlación						Necesario
+reportlab	Generación del PDF profesional A4-landscape		Necesario
+tqdm		Barra de progreso					Necesario
+imutils		Importado pero no utilizado 			    (puedes removerlo)	
+pillow		Requerido por OpenCV/TensorFlow para imágenes		Necesario
+
+
+Requirements.txt recomendado
+
+tensorflow==2.16.1
+numpy>=1.26
+pandas>=2.1
+scikit-image>=0.22
+scikit-learn>=1.3
+opencv-python-headless>=4.9
+matplotlib>=3.8
+seaborn>=0.13
+reportlab>=4.0
+tqdm>=4.66
+pillow>=10.0
