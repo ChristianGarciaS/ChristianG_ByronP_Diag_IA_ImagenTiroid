@@ -1,4 +1,4 @@
-﻿**C) ARQUITECTURA DEL SISTEMA**
+﻿**ARQUITECTURA DEL SISTEMA**
 
 **Proyecto:** **DIAGNÓSTICO AVANZADO DE IMÁGENES APLICANDO TÉCNICAS DE       INTELIGENCIA ARTIFICIAL**
 
@@ -186,4 +186,5 @@ Este modelo permite interpretar los embeddings profundos con un clasificador no 
 La arquitectura propuesta combina **robustez, eficiencia y escalabilidad**, integrando modelos profundos con clasificadores clásicos, análisis exploratorio exhaustivo y una salida profesional orientada al usuario final. 
 
 **Esta estructura facilita futuras extensiones del sistema hacia otros estudios médicos o entornos clínicos.**
+
 
