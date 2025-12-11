@@ -1,4 +1,4 @@
-﻿**D) Optimizacion**
+﻿**Optimizacion**
 
 ***Optimización de modelos —**
 
@@ -166,5 +166,6 @@ En términos generales:
 - La CNN mejoró tras el fine-tuning.
 - Random Forest mejoró moderadamente al ajustar profundidad.
 - La combinación **CNN + RF** entregó la mejor estabilidad diagnóstica.
+
 
 
