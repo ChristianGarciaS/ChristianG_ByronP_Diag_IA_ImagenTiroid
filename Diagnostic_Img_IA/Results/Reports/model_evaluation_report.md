@@ -89,11 +89,11 @@ El mejor desempeño del proyecto:
 
 | Clase      | Precision | Recall | F1-score | Support |
 |------------|-----------|--------|----------|---------|
- benign            0.80      0.38      0.52        52
- malignant         0.69      0.93      0.79        76
- accuracy                              0.71       128
- macro avg         0.74      0.66      0.66       128
-weighted avg       0.73      0.71      0.68       128
+ benign      |      0.80 |   0.38 |     0.52 |      52 |
+ malignant   |      0.69 |   0.93 |     0.79 |      76 |
+ accuracy    |           |        |     0.71 |     128 |
+ macro avg   |      0.74 |   0.66 |     0.66 |     128 |
+weighted avg |      0.73 |   0.71 |     0.68 |     128 |
 
  Observaciones clave:
 
