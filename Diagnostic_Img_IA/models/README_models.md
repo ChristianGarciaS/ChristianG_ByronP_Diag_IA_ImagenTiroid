@@ -30,39 +30,36 @@ Utilizan características estadísticas extraídas de las imágenes:
 
 | Modelo         | Accuracy |
 |----------------|----------|
-| CNN_base       | 0.622047 |
-| CNN_finetune   | 0.622047 |
-| RF_base        | 0.609375 |
-| RF_opt         | 0.640625 |
+| CNN_base       | 0.637795 |
+| CNN_finetune   | 0.669291 |
+| RF_base        | 0.679688 |
+| RF_opt         | 0.710938 |
 
 ---
 
 # 3. Análisis comparativo
 
-##  3.1 No mejora en CNN (0.62 → 0.62)
+##  3.1 Mejora en CNN (0.638 → 0.669)
 
-A pesar de aplicar optimización y *fine-tuning*, la CNN mantuvo la misma accuracy.  
+A pesar de aplicar optimización y *fine-tuning*, la RF estuvo por encima siendo el mejor modelo. 
 Las razones más probables:
 
-### **1. Dataset pequeño y con poca variabilidad**
+### **1. Dataset pequeño**
 Las CNN requieren una gran cantidad de imágenes para aprender representaciones robustas.  
-El tamaño reducido del dataset limita la capacidad de aprendizaje → **underfitting persistente**.
+El tamaño reducido del dataset limita la capacidad de aprendizaje.
 
 ### **2. Diferencias visuales mínimas en ecografías**
 Los nódulos benignos y malignos presentan patrones muy similares visualmente.  
 La CNN no encuentra diferencias suficientes para mejorar.
 
-### **3. Fine-tuning insuficiente**
-Aunque se ajustaron hiperparámetros, el modelo no logró aprender nuevas representaciones significativas.
-
-### **4. Sensibilidad al desbalance**
+### **3. Sensibilidad al desbalance**
 Las CNN son más sensibles al desbalance entre clases que modelos tabulares.
 
 > **Conclusión:** La arquitectura CNN está limitada por la naturaleza del dataset más que por el modelo en sí.
 
 ---
 
-##  3.2 Mejora en Random Forest (0.60 → 0.64)
+##  3.2 Mejora en Random Forest (0.679 → 0.710)
 
 A diferencia de la CNN, RF trabaja con **características tabulares** generadas en el preprocesamiento.
 
@@ -95,7 +92,7 @@ El ajuste de hiperparámetros mejoró la generalización:
 El modelo seleccionado como mejor desempeño fue:
 
 ###  **Random Forest Optimizado (RF_opt)**
-- Accuracy: **0.640625**  
+- Accuracy: **0.710938**  
 - Mejor capacidad de generalización  
 - Menor sensibilidad al dataset pequeño  
 - Basado en características estadísticamente significativas  
