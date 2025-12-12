@@ -1,5 +1,6 @@
 ﻿metric,value
-accuracy_cnn_fine_tuned,0.6377952755905512
-rf_best_max_depth,10
-rf_best_n_estimators,200
-accuracy_rf_optimized,0.640625
+accuracy_cnn_fine_tuned,0.669291
+rf_best_max_depth,50
+rf_best_n_estimators,300
+accuracy_rf_optimized,0.710938
+
