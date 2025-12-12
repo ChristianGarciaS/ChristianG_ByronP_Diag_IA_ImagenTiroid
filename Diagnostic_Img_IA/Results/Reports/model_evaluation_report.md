@@ -24,9 +24,9 @@ Cada modelo es evaluado con métricas clave del problema:
 | Modelo                   | Accuracy |
 |-------------------------|----------|
 | CNN Base                | 0.6377   |
-| CNN Fine‑tuned          | 0.6377   |
-| RF Base                 | 0.6094   |
-| RF Optimizado           | 0.6406   |
+| CNN Fine‑tuned          | 0.6692   |
+| RF Base                 | 0.6796   |
+| RF Optimizado           | 0.7109   |
 
  **Conclusión inicial:**  
 El **Random Forest optimizado** obtiene el mejor desempeño global del proyecto.
@@ -41,7 +41,7 @@ El **Random Forest optimizado** obtiene el mejor desempeño global del proyecto.
 
 El modelo CNN inicial (sin fine‑tuning) obtiene:
 - **Accuracy:** 0.6377  
-- Entrena 50 epochs con estabilidad moderada.
+- Entrena 300 epochs con estabilidad moderada.
 - Mantiene una val_accuracy alrededor de 0.63–0.64.
 
  Observación:  
@@ -53,15 +53,15 @@ El modelo aprende, pero no logra diferenciar suficientemente entre clases debido
 
 Resultados:
 
-- **Accuracy:** 0.6377  
-- Se observó mejora de estabilidad en entrenamiento, pero sin incremento real en accuracy.
+- **Accuracy:** 0.6692  
+- Se observó mejora de estabilidad en entrenamiento, con incremento real en accuracy.
 
  Observación:  
-A pesar del fine‑tuning, el modelo no supera su versión base.  
+Implementado fine‑tuning, el modelo SI supera su versión base.  
 Esto se debe a que:
 - los features del ultrasonido son sutiles,
-- la estructura del dataset es homogénea,
-- el fine‑tuning parcial no aporta información nueva suficiente para mejorar la discriminación.
+- la estructura del dataset ya no es tan homogénea,
+- el fine‑tuning parcial si aportó información nueva suficiente para mejorar la discriminación.
 
 ---
 
@@ -69,10 +69,10 @@ Esto se debe a que:
 
 El Random Forest entrenado sobre los embeddings de la CNN arroja:
 
-- **Accuracy:** 0.6094
+- **Accuracy:** 0.6796 
 
  Observación:  
-La capacidad del RF base es comparable al CNN, pero sin superar significativamente los resultados.
+La capacidad del RF base es un tanto comparable al CNN, pero supera significativamente los resultados.
 
 ---
 
@@ -80,25 +80,25 @@ La capacidad del RF base es comparable al CNN, pero sin superar significativamen
 
 El mejor desempeño del proyecto:
 
-- **Accuracy:** 0.6406  
+- **Accuracy:** 0.7109  
 - **Mejores parámetros:**  
-  - `max_depth = 10`  
-  - `n_estimators = 200`
+  - `max_depth = 50  
+  - `n_estimators = 300`
 
 ###  Clasification Report:
 
 | Clase      | Precision | Recall | F1-score | Support |
 |------------|-----------|--------|----------|---------|
-| benign     | 0.65      | 0.25   | 0.36     | 52      |
-| malignant  | 0.64      | 0.91   | 0.75     | 76      |
-| **accuracy** | —         | —      | **0.64** | 128     |
-| macro avg  | 0.64      | 0.58   | 0.56     | 128     |
-| weighted avg | 0.64    | 0.64   | 0.59     | 128     |
+ benign            0.80      0.38      0.52        52
+ malignant         0.69      0.93      0.79        76
+ accuracy                              0.71       128
+ macro avg         0.74      0.66      0.66       128
+weighted avg       0.73      0.71      0.68       128
 
  Observaciones clave:
 
-- El modelo es **muy fuerte clasificando malignos** (recall = 0.91).
-- El rendimiento para benignos es más bajo debido al **desbalance del dataset**.
+- El modelo es **muy fuerte clasificando ambas clases ** (Precision = 0.80 - 0.69).
+- El rendimiento para benignos es un poco bajo debido al **menor cantidad de imágenes benignas**
 - RF optimizado captura mejor las variaciones texturales que la CNN.
 
 ---
@@ -106,7 +106,7 @@ El mejor desempeño del proyecto:
 #  4. Matrices de confusión
 
  Análisis:
-- La CNN confunde fuertemente ambas clases por igual.
+- La CNN optimizado reduce en algo falsos negativos.
 - El RF optimizado reduce falsos negativos (malignos predichos como benignos).
 
 ---
@@ -116,9 +116,9 @@ El mejor desempeño del proyecto:
 | Modelo               | Ventajas | Desventajas |
 |---------------------|----------|-------------|
 | **CNN Base**        | Usa deep features | Limitada capacidad discriminativa |
-| **CNN Fine‑tuned**  | Mejor adaptación | No mejora accuracy |
-| **RF Base**         | Rápido, simple | No supera CNN base |
-| **RF Optimizado**   | **Mejor accuracy**, mejor recall maligno | Bajo recall benigno |
+| **CNN Fine‑tuned**  | Mejor adaptación  | Si mejora accuracy |
+| **RF Base**         | Rápido, simple    | Si supera CNN base |
+| **RF Optimizado**   | **Mejor accuracy**, mejor F1-Score maligno | Medio F1-Score benigno |
 
 ---
 
@@ -126,7 +126,7 @@ El mejor desempeño del proyecto:
 
 El **Random Forest optimizado** es el modelo recomendado del proyecto debido a:
 
-- Mejor accuracy general: **0.6406**
+- Mejor accuracy general: **0.7109**
 - Recall sobresaliente en clase “malignant” (prioritaria clínicamente)
 - Aprovecha los embeddings del CNN para lograr un balance entre complejidad y desempeño
 
